@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="webgl-content">
-			  <!-- custom -->
+		<!-- custom -->
 		<div id="wrapper">
             <div id="fileWrapper" class="file_wrapper">
                 <div id="info">
@@ -23,15 +23,16 @@
             </div>	
        </div>
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
+	  		<!-- custom -->
+		<div class="uploadedFileButton">
+			<input type="file" id='uploadedFile' style="height: 50px; Top: 60px" multiple></input>
+		</div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
         <div class="title">Music Visualizer</div>
-		<!-- custom -->
-		<input type="file" id="uploadedFile" style="display: none" multiple></input>
       </div>
     </div>
-
 	  <script type="text/javascript" src="js/html5_audio_visualizer.js"></script>
   </body>
 </html>
